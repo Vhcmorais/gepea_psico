@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  background-color: #fffeee;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: "Patrick Hand SC", cursive;
+}
+
+:root {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.inicio-container
+{
+  background: url("assets/");
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+
+.inicio-container section
+{
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.content
+{
+  max-width: 60rem;
+  margin-left: 2rem;
+}
+
+.content p 
+{
+  color: #252525;
+  font-size: 1.3rem;
+  font-weight: 300;
+  line-height: 1.7;
+  padding: 1rem 0;
+}
+.content h3
+{
+  font-size: 5rem;
+}
+
+.content h2
+{
+  color: black;
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 1.8;
+  padding: 1rem 0;
+}
