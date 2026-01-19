@@ -1,0 +1,36 @@
+.gestao_container
+{
+    display: flex;
+    justify-content: center;
+    gap: 6rem;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+
+.titulo_card
+{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.titulo_card span
+{
+    color: #40a9ff;
+}
+
+.texto_yasmin
+{
+    font-size: 18px;
+    text-align: justify;
+    margin-top: 15px;
+    line-height: 1.3rem;
+}
+
+.texto_luisa
+{
+    font-size: 18px;
+    text-align: justify;
+    margin-top: 15px;
+    line-height: 1.5rem;
+}

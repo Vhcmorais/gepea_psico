@@ -1,0 +1,52 @@
+.estudos_sessao
+{
+    position: relative;
+    margin-top: 10rem;
+    background-color: #f8f7e4;
+    padding: 3rem 5rem;
+    overflow: hidden;
+}
+
+.estudos_sessao::before
+{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url("./src/assets/bg.png");
+    background-repeat: repeat;
+    opacity: 0.07;
+    pointer-events: none;
+    z-index: 0;
+}
+
+.estudos_sessao > *
+{
+    position: relative;
+    z-index: 1;
+}
+
+.conteudo-estudos
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100rem;
+    margin: auto;
+    gap: 2rem;
+}
+
+.conteudo-estudos h3
+{
+    margin-top: 4rem;
+    text-align: center;
+    font-size: 4rem;
+    max-width: 45rem;
+    color: #8B6F47;
+    text-transform: uppercase;
+}
+
+.conteudo-estudos h3 span
+{
+    color: #5E4523;
+}

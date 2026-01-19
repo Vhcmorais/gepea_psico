@@ -1,6 +1,8 @@
 .navbar-topo
 {
-    background-color: #FFFDD0;
+    position: fixed;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
     width: 100%;
     padding-left: 0;
     padding-right: 0;
@@ -60,4 +62,48 @@
 
 .navbar-menu .nav-link:hover::after {
   width: 100%;
+}
+
+@media (max-width: 768px) {
+    .navbar-brand h3
+    {
+        display: none;
+    }
+
+    .navbar-image
+    {
+        height: 60px;
+        width: 60px;
+        margin-left: 5px;
+    }
+
+    .navbar-menu .nav-link
+    {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar-brand h3
+    {
+        display: none;
+    }
+
+    .navbar-image
+    {
+        height: 50px;
+        width: 50px;
+        margin-left: 0;
+    }
+
+    .navbar-menu .nav-link
+    {
+        font-size: 0.8rem;
+        padding: 0.5rem 0.5rem !important;
+    }
+
+    .navbar-menu
+    {
+        gap: 0.5rem !important;
+    }
 }

@@ -1,14 +1,20 @@
 import './App.css'
+import './components/css_sections/apresentacao.css'
+import './components/css_sections/estudos.css'
+import './components/css_sections/contato.css'
 import Topo from './components/navbar.jsx';
 import Botao from './components/button.jsx';
 import Card_Grupo from './components/card.jsx';
+import Card_Gestao from './components/card_nos.jsx';
+import Carousel_Estudos from './components/carousel.jsx';
+import Contato from './components/card_contato.jsx';
 
 function App() {
   return (
     <>
      <Topo/>
       <div className="inicio-container">
-          <section id="inicio">
+          <section id="inicio" className='section_inicio'>
               <div className="content">
                   <h3>
                       "A aprendizagem não é apenas um processo cognitivo, é também afetivo."
@@ -32,7 +38,7 @@ function App() {
           <div className='row'>
             <div className='texto_sobre'>
               <h3>
-                O que faz nosso projeto especial
+                GEPEA - Grupo de Estudos de Psicologia Escolar e Arte
               </h3>
               <p>
                 Nosso objetivo com o Grupo de Estudos de Psicologia Escolar e Arte (GEPEA) é criar um espaço coletivo de estudos e 
@@ -45,6 +51,33 @@ function App() {
               <Card_Grupo />
             </div>
           </div>
+        </div>
+      </section>
+
+      <section className='equipe_container' id='quem_somos'>
+        <div className="conteudo-equipe">
+          <h3 className='titulo_apresentacao' >
+            Quem <span> somos</span>?
+          </h3>
+          <Card_Gestao />
+        </div>
+      </section>
+
+      <section className='estudos_sessao' id='estudos'>
+        <div className='conteudo-estudos'>
+          <h3>Veja um pouco mais sobre <span>nossos estudos</span>.</h3>
+          <Carousel_Estudos/> 
+        </div>
+      </section>
+
+      <section className='contato_sessao' id='contato'>
+        <div className='container_contato'>
+          <h3><span>Quer fazer</span> parte?</h3>
+          <p>
+            Entre em contato conosco através das redes sociais ou pelo e-mail.<br/>
+            Voce também faz parte dessa construção coletiva.<br/>
+          </p>
+          <Contato/>
         </div>
       </section>
     </>

@@ -1,0 +1,21 @@
+.equipe_container 
+{
+    margin-top: 1rem;
+    background-color: #fffeee;
+    padding: 3rem 5rem;
+}
+
+.titulo_apresentacao 
+{
+    margin-top: 3.2rem;
+    font-size: 4rem;
+    color: #8b6f47;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+
+.titulo_apresentacao span 
+{
+    color: #5e4523;
+}

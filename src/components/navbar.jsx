@@ -12,7 +12,7 @@ function Topo() {
                 <img src="./src/assets/logo_gepea.png" 
                 alt="logo" 
                 className='navbar-image'/>
-                <h3>GEPEA</h3>
+                <h3>GEPEA - Grupo de Estudos de Psicologia e Arte</h3>
             </Navbar.Brand>
           <Nav className="ms-auto gap-4 navbar-menu">
             <Nav.Link href="#inicio">Início</Nav.Link>
