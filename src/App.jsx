@@ -29,7 +29,7 @@ function App() {
                   </p>
                   <Botao/>
               </div>
-              <img className="imagem_hero" src="./src/assets/imagem_hero.png" alt="hero" />
+              <img className="imagem_hero" src="assets/imagem_hero.png" alt="hero" />
           </section>
       </div>
 

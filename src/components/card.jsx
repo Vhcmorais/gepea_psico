@@ -6,7 +6,7 @@ function Card_Grupo() {
   return (
     <CardGroup>
       <Card>
-          <Card.Img variant="top" src="./src/assets/espaco.png" className='card-img-cima'/>
+          <Card.Img variant="top" src="assets/espaco.png" className='card-img-cima'/>
         <Card.Body>
           <Card.Title className='title_card'>Ambiente Afetivo</Card.Title>
           <Card.Text className='description'>
@@ -19,7 +19,7 @@ function Card_Grupo() {
         </Card.Footer>
       </Card>
       <Card>
-        <Card.Img variant="top" src="./src/assets/duvidas.png" className='card-img-meio' />
+        <Card.Img variant="top" src="assets/duvidas.png" className='card-img-meio' />
         <Card.Body>
           <Card.Title className='title_card'>Encontros baseados em leitura</Card.Title>
           <Card.Text className='description'>
@@ -33,7 +33,7 @@ function Card_Grupo() {
         </Card.Footer>
       </Card>
       <Card>
-        <Card.Img variant="top" src="./src/assets/arte.png" className="card-img-ultima" />
+        <Card.Img variant="top" src="assets/arte.png" className="card-img-ultima" />
         <Card.Body>
           <Card.Title className='title_card'>Recursos Artísticos</Card.Title>
           <Card.Text className='description'>

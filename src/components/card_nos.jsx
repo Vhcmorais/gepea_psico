@@ -5,7 +5,7 @@ function Card_Gestao() {
   return (
     <div className='gestao_container'>
     <Card style={{ width: '30rem' }} className='yasmin'>
-      <Card.Img variant="top" src="./src/assets/yasmin_vitoria.jpeg" />
+      <Card.Img variant="top" src="assets/yasmin_vitoria.jpeg" />
       <Card.Body>
         <Card.Title className='titulo_card'>Eu sou <span>Yasmin Vitória</span>!</Card.Title>
         <Card.Text className='texto_yasmin'>
@@ -18,7 +18,7 @@ function Card_Gestao() {
     </Card>
 
     <Card style={{ width: '30rem' }} className='luisa'>
-      <Card.Img variant="top" src="./src/assets/luisa_maria.jpeg" />
+      <Card.Img variant="top" src="assets/luisa_maria.jpeg" />
       <Card.Body>
         <Card.Title className='titulo_card'>Eu sou <span>Luísa Maria</span>!</Card.Title>
         <Card.Text className='texto_luisa'>

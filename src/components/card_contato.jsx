@@ -25,7 +25,7 @@ function Contato() {
           <Tab.Content>
             <Tab.Pane eventKey="insta" className="ativo">
               <Card.Title>
-                <img src="./src/assets/insta.png" alt="instagram" className="image" />
+                <img src="assets/insta.png" alt="instagram" className="image" />
                 Instagram
               </Card.Title>
               <Card.Text>
@@ -44,7 +44,7 @@ function Contato() {
 
             <Tab.Pane eventKey="email" className="ativo">
               <Card.Title>
-                <img src="./src/assets/gmail.png" alt="email" className="image" />
+                <img src="assets/gmail.png" alt="email" className="image" />
                 E-mail
                 </Card.Title>
               <Card.Text>
@@ -61,7 +61,7 @@ function Contato() {
 
             <Tab.Pane eventKey="whatsapp" className="ativo">
               <Card.Title>
-                <img src="./src/assets/whatsapp.png" alt="zap" className="image" />
+                <img src="assets/whatsapp.png" alt="zap" className="image" />
                 WhatsApp
                 </Card.Title>
               <Card.Text>

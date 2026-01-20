@@ -34,7 +34,7 @@ function Topo() {
       <Container fluid className="navbar-container">
         <Navbar.Brand href="#inicio" className="navbar-brand">
           <img
-            src="./src/assets/logo_gepea.png"
+            src="assets/logo_gepea.png"
             alt="logo"
             className="navbar-image"
           />

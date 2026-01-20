@@ -7,7 +7,7 @@ function Carousel_Estudos() {
       <Carousel.Item>
         <img
           className="d-block w-100 imagem"
-          src="./src/assets/encontros/teste1.jpeg"
+          src="assets/encontros/teste1.jpeg"
           alt="Primeiro slide"
         />
         <Carousel.Caption>
@@ -19,7 +19,7 @@ function Carousel_Estudos() {
       <Carousel.Item>
         <img
           className="d-block w-100 imagem"
-          src="./src/assets/encontros/teste2.jpeg"
+          src="assets/encontros/teste2.jpeg"
           alt="Segundo slide"
         />
         <Carousel.Caption>
@@ -31,7 +31,7 @@ function Carousel_Estudos() {
       <Carousel.Item>
         <img
           className="d-block w-100 imagem"
-          src="./src/assets/encontros/teste3.jpeg"
+          src="assets/encontros/teste3.jpeg"
           alt="Terceiro slide"
         />
         <Carousel.Caption>
