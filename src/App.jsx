@@ -2,6 +2,7 @@ import './App.css'
 import './components/css_sections/apresentacao.css'
 import './components/css_sections/estudos.css'
 import './components/css_sections/contato.css'
+import './components/css_sections/footer.css'
 import Topo from './components/navbar.jsx';
 import Botao from './components/button.jsx';
 import Card_Grupo from './components/card.jsx';
@@ -44,7 +45,6 @@ function App() {
                 Nosso objetivo com o Grupo de Estudos de Psicologia Escolar e Arte (GEPEA) é criar um espaço coletivo de estudos e 
                 reflexões sobre temas que abordem as possibilidades de práticas em Psicologia Escolar e Educacional, considerando os 
                 desafios e as demandas do contexto escolar, com ênfase no uso da arte como recurso de mediação, expressão e intervenção.
-                Nosso objetivo com o Grupo de Estudos de Psicologia Escolar e Arte (GEPEA) é criar um espaço coletivo de estudos e reflexões sobre temas que abordem as possibilidades de práticas em Psicologia Escolar e Educacional, considerando os desafios e as demandas do contexto escolar, com ênfase no uso da arte como recurso de mediação, expressão e intervenção.
                 Diante dessas demandas, o projeto busca desenvolver ações que contribuam para a reflexão crítica e a construção coletiva 
                 de conhecimentos, procurando atendê-las por meio dos seguintes objetivos:
               </p>
@@ -80,6 +80,16 @@ function App() {
           <Contato/>
         </div>
       </section>
+
+      <footer>
+      <div className='footer_content'>
+        <p>© 2026 GEPEA - Grupo de Estudos de Psicologia Escolar e Arte. Todos os direitos reservados.</p>
+        <a href="https://www.instagram.com/gepeapsi" target="_blank">Instagram</a>
+        <span>•</span>
+        <a href="mailto:contato@gepea.com">E-mail</a>
+        <p className='desenvolvimento'> Desenvolvido por: <a href="https://www.instagram.com/vhcmoorais" target="_blank">@vhcmoorais</a></p>
+      </div>
+      </footer>
     </>
   )
 }
