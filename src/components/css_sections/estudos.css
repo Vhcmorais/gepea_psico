@@ -5,19 +5,27 @@
     background-color: #f8f7e4;
     padding: 3rem 5rem;
     overflow: hidden;
+    min-height: auto;
+}
+
+@media (max-width: 1024px) {
+    .estudos_sessao {
+        margin-top: 6rem;
+        padding: 2.5rem 3rem;
+    }
 }
 
 @media (max-width: 768px) {
     .estudos_sessao {
-        margin-top: 5rem;
-        padding: 2rem 2rem;
+        margin-top: 4rem;
+        padding: 2.5rem 2rem;
     }
 }
 
 @media (max-width: 480px) {
     .estudos_sessao {
-        margin-top: 3rem;
-        padding: 1.5rem 1rem;
+        margin-top: 2rem;
+        padding: 2rem 1.2rem;
     }
 }
 
@@ -65,18 +73,27 @@
     color: #5E4523;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
     .conteudo-estudos h3 {
         margin-top: 2rem;
-        font-size: 2.5rem;
+        font-size: 3rem;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .conteudo-estudos h3 {
+        margin-top: 1.5rem;
+        font-size: 2rem;
         max-width: 100%;
     }
 }
 
 @media (max-width: 480px) {
     .conteudo-estudos h3 {
-        margin-top: 1.5rem;
-        font-size: 1.8rem;
+        margin-top: 1rem;
+        font-size: 1.3rem;
         max-width: 100%;
+        line-height: 1.2;
     }
 }
