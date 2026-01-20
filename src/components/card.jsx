@@ -10,8 +10,8 @@ function Card_Grupo() {
         <Card.Body>
           <Card.Title className='title_card'>Ambiente Afetivo</Card.Title>
           <Card.Text className='description'>
-            Promover um ambiente coletivo permeado pela arte e pelo afeto, favorecendo discussoes sobre as poss~iveis praticas
-            no contexto escolar e educacional.
+            Promover um ambiente coletivo permeado pela arte e pelo afeto, favorecendo discussões sobre
+             as possíveis práticas no contexto escolar e educacional.
           </Card.Text>
         </Card.Body>
         <Card.Footer>
@@ -23,8 +23,9 @@ function Card_Grupo() {
         <Card.Body>
           <Card.Title className='title_card'>Encontros baseados em leitura</Card.Title>
           <Card.Text className='description'>
-            Desenvolver encontros baseados em dialogos a partir de leituras previamente realizadas, garantindo um espaco aberto,
-            etico e seguro para duvidas, questionamentos e a construcao coletiva do conhecimento.
+            Desenvolver encontros baseados em diálogos a partir de leituras previamente realizadas,
+            garantindo um espaço aberto, ético e seguro para dúvidas, questionamentos e a construção
+            coletiva do conhecimento.
           </Card.Text>
         </Card.Body>
         <Card.Footer>
@@ -36,8 +37,8 @@ function Card_Grupo() {
         <Card.Body>
           <Card.Title className='title_card'>Recursos Artísticos</Card.Title>
           <Card.Text className='description'>
-            Utilizar recursos artisticos como mediadores nas discussoes e nas producoes grupais, possibilitando a expressao,
-            a reflexao critica e a elaboracao de sentidos sobre as praticas em Psicologia Escolar e Educacional.
+            Utilizar recursos artísticos como mediadores nas discussões e nas produções grupais, possibilitando a expressão,
+            a reflexão crítica e a elaboração de sentidos sobre as práticas em Psicologia Escolar e Educacional.
           </Card.Text>
         </Card.Body>
         <Card.Footer>

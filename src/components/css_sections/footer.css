@@ -32,3 +32,48 @@
   margin: 0rem 0;
   margin-top: 1rem;
 }
+
+@media (max-width: 768px) {
+  .footer_content {
+    padding: 0.5rem 1rem;
+    font-size: 0.8rem;
+  }
+
+  .footer_content a {
+    margin: 0 0.3rem;
+    display: inline-block;
+  }
+
+  .footer_content .desenvolvimento {
+    text-align: center;
+    font-size: 0.7rem;
+    margin-top: 0.5rem;
+  }
+
+  .footer_content p {
+    margin-top: 0.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer_content {
+    padding: 0.4rem 0.5rem;
+    font-size: 0.75rem;
+  }
+
+  .footer_content a {
+    margin: 0 0.2rem;
+    display: block;
+    margin-bottom: 0.3rem;
+  }
+
+  .footer_content .desenvolvimento {
+    text-align: center;
+    font-size: 0.65rem;
+    margin-top: 0.3rem;
+  }
+
+  .footer_content p {
+    margin-top: 0.3rem;
+  }
+}

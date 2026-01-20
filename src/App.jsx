@@ -75,7 +75,7 @@ function App() {
           <h3><span>Quer fazer</span> parte?</h3>
           <p>
             Entre em contato conosco através das redes sociais ou pelo e-mail.<br/>
-            Voce também faz parte dessa construção coletiva.<br/>
+            Você também faz parte dessa construção coletiva.<br/>
           </p>
           <Contato/>
         </div>

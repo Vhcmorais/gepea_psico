@@ -18,3 +18,34 @@
     object-fit: cover;      
     object-position: center;
 }
+
+@media (max-width: 768px) {
+    .carrossel_estudos {
+        width: 90%;
+        border: 2px solid #5e4523;
+    }
+
+    .imagem {
+        height: 500px;
+    }
+
+    .carrossel_estudos h3 {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .carrossel_estudos {
+        width: 95%;
+        border: 2px solid #5e4523;
+    }
+
+    .imagem {
+        height: 350px;
+    }
+
+    .carrossel_estudos h3 {
+        font-size: 1rem;
+        margin-top: 0.3rem;
+    }
+}

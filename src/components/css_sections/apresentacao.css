@@ -19,3 +19,28 @@
 {
     color: #5e4523;
 }
+
+@media (max-width: 768px) {
+    .equipe_container {
+        padding: 2rem 2rem;
+    }
+
+    .titulo_apresentacao {
+        font-size: 2.5rem;
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .equipe_container {
+        padding: 1.5rem 1rem;
+        margin-top: 0.5rem;
+    }
+
+    .titulo_apresentacao {
+        font-size: 1.8rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+}

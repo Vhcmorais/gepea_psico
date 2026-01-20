@@ -38,6 +38,56 @@
     color: black;
 }
 
+@media (max-width: 768px) {
+    .contato_sessao {
+        padding: 30px 15px;
+    }
+
+    .container_contato {
+        margin: 2rem auto;
+        gap: 2rem;
+    }
+
+    .container_contato h3 {
+        font-size: 2.5rem;
+        margin-bottom: 15px;
+    }
+
+    .container_contato h3 span {
+        font-size: 2.5rem;
+    }
+
+    .container_contato p {
+        font-size: 1.3rem;
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .contato_sessao {
+        padding: 20px 10px;
+    }
+
+    .container_contato {
+        margin: 1rem auto;
+        gap: 1rem;
+    }
+
+    .container_contato h3 {
+        font-size: 1.8rem;
+        margin-bottom: 10px;
+    }
+
+    .container_contato h3 span {
+        font-size: 1.8rem;
+    }
+
+    .container_contato p {
+        font-size: 1rem;
+        margin-bottom: 10px;
+    }
+}
+
 .nav-pills .nav-link.active {
     background-color: #8B6F47; 
     color: #fffeee;            
@@ -77,4 +127,30 @@
     width: 30px;
     height: 30px;
     margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+    .card_contato {
+        max-width: 100%;
+        margin: 1.5rem auto;
+    }
+
+    .image {
+        width: 25px;
+        height: 25px;
+        margin-right: 8px;
+    }
+}
+
+@media (max-width: 480px) {
+    .card_contato {
+        max-width: 100%;
+        margin: 1rem auto;
+    }
+
+    .image {
+        width: 20px;
+        height: 20px;
+        margin-right: 6px;
+    }
 }

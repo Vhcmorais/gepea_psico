@@ -7,6 +7,20 @@
     overflow: hidden;
 }
 
+@media (max-width: 768px) {
+    .estudos_sessao {
+        margin-top: 5rem;
+        padding: 2rem 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .estudos_sessao {
+        margin-top: 3rem;
+        padding: 1.5rem 1rem;
+    }
+}
+
 .estudos_sessao::before
 {
     content: "";
@@ -49,4 +63,20 @@
 .conteudo-estudos h3 span
 {
     color: #5E4523;
+}
+
+@media (max-width: 768px) {
+    .conteudo-estudos h3 {
+        margin-top: 2rem;
+        font-size: 2.5rem;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .conteudo-estudos h3 {
+        margin-top: 1.5rem;
+        font-size: 1.8rem;
+        max-width: 100%;
+    }
 }

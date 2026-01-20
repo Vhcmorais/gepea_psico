@@ -65,7 +65,7 @@ function Contato() {
                 WhatsApp
                 </Card.Title>
               <Card.Text>
-                Faca parte da comunidade no WhatsApp.
+                Faça parte da comunidade no WhatsApp.
               </Card.Text>
               <Button className="btn"
                 as="a"

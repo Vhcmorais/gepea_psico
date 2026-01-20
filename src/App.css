@@ -86,12 +86,92 @@ html, body {
   object-fit: cover;
 }
 
+@media (max-width: 768px) {
+  .inicio-container {
+    min-height: auto;
+  }
+
+  .inicio-container section {
+    gap: 2rem;
+    min-height: auto;
+    padding: 2rem 1rem;
+    margin-top: 5rem;
+  }
+
+  .content {
+    max-width: 100%;
+    margin-left: 0;
+  }
+
+  .content h3 {
+    font-size: 2.5rem;
+  }
+
+  .content h2 {
+    font-size: 1.2rem;
+  }
+
+  .content p {
+    font-size: 1rem;
+    padding: 0.5rem 0;
+  }
+
+  .imagem_hero {
+    width: 250px;
+    height: 300px;
+  }
+}
+
+@media (max-width: 480px) {
+  .inicio-container section {
+    gap: 1rem;
+    flex-direction: column;
+    padding: 1.5rem 1rem;
+    margin-top: 6rem;
+  }
+
+  .content {
+    order: 2;
+  }
+
+  .imagem_hero {
+    width: 180px;
+    height: 220px;
+    order: 1;
+  }
+
+  .content h3 {
+    font-size: 1.8rem;
+  }
+
+  .content h2 {
+    font-size: 1rem;
+  }
+
+  .content p {
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
+}
+
 /* SEÇÃO SOBRE */
 .sobre-container {
   position: relative;
   background-color: #f8f7e4;
   padding: 8rem 10rem;
   overflow: hidden;
+}
+
+@media (max-width: 768px) {
+  .sobre-container {
+    padding: 4rem 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .sobre-container {
+    padding: 2rem 1rem;
+  }
 }
 
 .sobre-container::before {
