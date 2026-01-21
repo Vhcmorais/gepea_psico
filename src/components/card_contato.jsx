@@ -13,9 +13,6 @@ function Contato() {
               <Nav.Link eventKey="insta" className="item">Instagram</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link eventKey="email" className="item">E-mail</Nav.Link>
-            </Nav.Item>
-            <Nav.Item>
               <Nav.Link eventKey="whatsapp" className="item">WhatsApp</Nav.Link>
             </Nav.Item>
           </Nav>
@@ -39,23 +36,6 @@ function Contato() {
                 variant="primary"
               >
                 @gepeapsi
-              </Button>
-            </Tab.Pane>
-
-            <Tab.Pane eventKey="email" className="ativo">
-              <Card.Title>
-                <img src="assets/gmail.png" alt="email" className="image" />
-                E-mail
-                </Card.Title>
-              <Card.Text>
-                Entre em contato conosco pelo e-mail oficial do projeto.
-              </Card.Text>
-              <Button className="btn"
-                as="a"
-                href="#"
-                variant="primary"
-              >
-                email@email.com
               </Button>
             </Tab.Pane>
 

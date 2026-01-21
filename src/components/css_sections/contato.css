@@ -134,3 +134,18 @@
         height: 20px;
     }
 }
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  background-color: #8B6F47; 
+  color: #fffeee;          
+}
+
+.nav-pills .nav-link:hover {
+  background-color: rgba(139, 111, 71, 0.2);
+  color: #5E4523;
+}
+
+.nav-pills .nav-link {
+  color: #5E4523;
+}
