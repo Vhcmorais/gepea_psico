@@ -1,101 +1,96 @@
-.card-group
-{
+.card-group {
     display: flex;
-    margin-bottom: 2rem;
-    width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
     justify-content: center;
+    margin: 0 auto 2rem;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 2rem;
+    box-sizing: border-box;
 }
 
-.card
-{
+.card {
     display: flex;
-    border: #8b6f47 1px solid;
+    flex-direction: column;
+    border: 1px solid #8b6f47;
+    width: 100%;
+    max-width: 350px;
 }
-.card-img
-{
+
+/* IMAGEM */
+.card-img {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 350px;
-    width: 350px;
+    width: 100%;
+    max-width: 350px;
+    margin: 0 auto;
 }
 
-.title_card
-{
+/* TÍTULO */
+.title_card {
     text-align: center;
-    line-height: 10%;
     font-weight: bold;
     color: #5e4523;
-}
-
-.card .description
-{
-    text-align: justify;
-    font-size: 1rem;
-    color: #252525;
+    line-height: 1.2;
     margin-top: 1rem;
 }
 
-.card .text-muted
-{
+/* TEXTO */
+.card .description {
+    text-align: left;
+    font-size: 1rem;
+    color: #252525;
+    margin-top: 1rem;
+    word-wrap: break-word;
+}
+
+.card .text-muted {
     display: block;
     text-align: center;
 }
+
+/* TABLET */
 @media (max-width: 768px) {
-    .card-group
-    {
+    .card-group {
         flex-direction: column;
-        width: 100%;
-        padding: 0 1rem;
+        padding: 0 1.5rem;
     }
 
-    .card-img
-    {
+    .card {
+        max-width: 100%;
+    }
+
+    .card-img {
         height: 250px;
-        width: 100%;
+        max-width: 100%;
     }
 
-    .title_card
-    {
+    .title_card {
         font-size: 1.1rem;
     }
 
-    .card .description
-    {
-        font-size: 0.9rem;
+    .card .description {
+        font-size: 0.95rem;
     }
 }
 
+/* CELULAR */
 @media (max-width: 480px) {
-    .card-group
-    {
-        flex-direction: column;
-        width: 100%;
-        padding: 0 0.5rem;
+    .card-group {
+        padding: 0 1rem;
         margin-bottom: 1rem;
     }
 
-    .card
-    {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .card-img
-    {
+    .card-img {
         height: 200px;
-        width: 100%;
     }
 
-    .title_card
-    {
+    .title_card {
         font-size: 1rem;
     }
 
-    .card .description
-    {
+    .card .description {
         font-size: 0.85rem;
     }
 }

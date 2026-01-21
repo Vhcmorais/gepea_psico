@@ -1,43 +1,44 @@
-.contato_sessao
-{
+.contato_sessao {
     background-color: #fffeee;
     padding: 50px 20px;
     display: flex;
-    text-align: center;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
-.container_contato
-{
+.container_contato {
+    width: 100%;
     max-width: 1200px;
     margin: 4rem auto;
-    width: 100%;
     text-align: center;
+    display: flex;
+    flex-direction: column;
     gap: 3rem;
 }
 
-.container_contato h3
-{
-    font-size: 4rem;
+.container_contato h3 {
+    font-size: 3rem;
     margin-bottom: 20px;
     color: #8B6F47;
+    word-wrap: break-word;
 }
 
-.container_contato h3 span
-{
-    font-size: 4rem;
-    margin-bottom: 20px;
+.container_contato h3 span {
+    font-size: 3rem;
     color: #5e4523;
 }
 
-.container_contato p
-{
-    font-size: 2rem;
+.container_contato p {
+    font-size: 1.5rem;
     margin-bottom: 20px;
     color: black;
+    word-wrap: break-word;
 }
 
+/* TABLET */
 @media (max-width: 768px) {
     .contato_sessao {
         padding: 30px 15px;
@@ -49,20 +50,19 @@
     }
 
     .container_contato h3 {
-        font-size: 2.5rem;
-        margin-bottom: 15px;
+        font-size: 2rem;
     }
 
     .container_contato h3 span {
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
 
     .container_contato p {
-        font-size: 1.3rem;
-        margin-bottom: 15px;
+        font-size: 1.2rem;
     }
 }
 
+/* CELULAR */
 @media (max-width: 480px) {
     .contato_sessao {
         padding: 20px 10px;
@@ -70,63 +70,40 @@
 
     .container_contato {
         margin: 1rem auto;
-        gap: 1rem;
+        gap: 1.5rem;
     }
 
     .container_contato h3 {
-        font-size: 1.8rem;
-        margin-bottom: 10px;
+        font-size: 1.5rem;
     }
 
     .container_contato h3 span {
-        font-size: 1.8rem;
+        font-size: 1.5rem;
     }
 
     .container_contato p {
         font-size: 1rem;
-        margin-bottom: 10px;
     }
 }
 
-.nav-pills .nav-link.active {
-    background-color: #8B6F47; 
-    color: #fffeee;            
-}
-
-.nav-pills .nav-link {
-    color: #5E4523;
-}
-
-.nav-pills .nav-link:hover {
-    background-color: rgba(139, 111, 71, 0.2);
-    color: #5E4523;
-}
-
-.btn
-{
+/* BOTÕES */
+.btn {
     background-color: #8B6F47;
     color: #fffeee;
     border: 2px solid #8B6F47;
 }
 
-.btn:hover
-{
+.btn:hover {
     background-color: #5e4523;
-    border: 2px solid #5e4523;
+    border-color: #5e4523;
     color: #fffeee;
 }
 
-.card_contato
-{
+/* CARD */
+.card_contato {
+    width: 100%;
     max-width: 45rem;
     margin: 2rem auto;
-}
-
-.image
-{
-    width: 30px;
-    height: 30px;
-    margin-right: 10px;
 }
 
 @media (max-width: 768px) {
@@ -134,23 +111,26 @@
         max-width: 100%;
         margin: 1.5rem auto;
     }
+}
 
+/* ÍCONES */
+.image {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    flex-shrink: 0;
+}
+
+@media (max-width: 768px) {
     .image {
         width: 25px;
         height: 25px;
-        margin-right: 8px;
     }
 }
 
 @media (max-width: 480px) {
-    .card_contato {
-        max-width: 100%;
-        margin: 1rem auto;
-    }
-
     .image {
         width: 20px;
         height: 20px;
-        margin-right: 6px;
     }
 }

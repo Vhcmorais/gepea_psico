@@ -1,12 +1,12 @@
-.equipe_container 
-{
+.equipe_container {
+    width: 100%;
+    max-width: 100%;
     margin-top: 1rem;
     background-color: #fffeee;
-    padding: 3rem 5rem;
+    padding: 3rem 4rem;
 }
 
-.titulo_apresentacao 
-{
+.titulo_apresentacao {
     margin-top: 3.2rem;
     font-size: 4rem;
     color: #8b6f47;
@@ -15,14 +15,14 @@
     margin-bottom: 2rem;
 }
 
-.titulo_apresentacao span 
-{
+.titulo_apresentacao span {
     color: #5e4523;
 }
 
+/* TABLET */
 @media (max-width: 768px) {
     .equipe_container {
-        padding: 2.5rem 2rem;
+        padding: 2rem 1.5rem;
         margin-top: 0.5rem;
     }
 
@@ -33,9 +33,10 @@
     }
 }
 
+/* CELULAR */
 @media (max-width: 480px) {
     .equipe_container {
-        padding: 2rem 1.2rem;
+        padding: 1.5rem 1rem;
         margin-top: 0;
     }
 
