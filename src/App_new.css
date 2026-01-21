@@ -97,17 +97,18 @@ html, body {
   }
 }
 
+/* TABLET */
 @media (max-width: 768px) {
   .inicio-container {
     min-height: auto;
     height: auto;
+    background-color: #fffeee;
   }
 
   .inicio-container section {
     gap: 2rem;
     min-height: auto;
-    padding: 3rem 1.5rem;
-    margin-top: 4rem;
+    padding: 4rem 1.5rem 3rem;
     flex-direction: column;
   }
 
@@ -138,15 +139,17 @@ html, body {
   }
 }
 
+/* CELULAR */
 @media (max-width: 480px) {
   .inicio-container {
+    min-height: auto;
     height: auto;
+    background-color: #fffeee;
   }
 
   .inicio-container section {
     gap: 1.5rem;
-    padding: 2rem 1rem;
-    margin-top: 5rem;
+    padding: 5rem 1rem 2rem;
   }
 
   .content {
