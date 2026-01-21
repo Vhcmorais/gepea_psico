@@ -85,8 +85,6 @@ function App() {
       <div className='footer_content'>
         <p>© 2026 GEPEA - Grupo de Estudos de Psicologia Escolar e Arte. Todos os direitos reservados.</p>
         <a href="https://www.instagram.com/gepeapsi" target="_blank">Instagram</a>
-        <span>•</span>
-        <a href="mailto:contato@gepea.com">E-mail</a>
         <p className='desenvolvimento'> Desenvolvido por: <a href="https://www.instagram.com/vhcmoorais" target="_blank">@vhcmoorais</a></p>
       </div>
       </footer>
