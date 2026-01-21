@@ -13,7 +13,7 @@ function Contato() {
               <Nav.Link eventKey="insta" className="item">Instagram</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link eventKey="whatsapp" className="item">WhatsApp</Nav.Link>
+              <Nav.Link eventKey="whatsapp" className="item">Formulário</Nav.Link>
             </Nav.Item>
           </Nav>
         </Card.Header>
@@ -41,20 +41,20 @@ function Contato() {
 
             <Tab.Pane eventKey="whatsapp" className="ativo">
               <Card.Title>
-                <img src="assets/whatsapp.png" alt="zap" className="image" />
-                WhatsApp
+                <img src="assets/formulario.png" alt="formulario" className="image" />
+                Formulário
                 </Card.Title>
               <Card.Text>
-                Faça parte da comunidade no WhatsApp.
+                Demonstre seu interesse de participar preenchendo o formulário.
               </Card.Text>
               <Button className="btn"
                 as="a"
-                href="#."
+                href="https://docs.google.com/forms/d/e/1FAIpQLSeZola-MRks7dC5Zh0MF2JJ677JeS8KcNsQ5erH_f4_x4KybA/viewform?usp=publish-editor"
                 target="_blank"
                 rel="noopener noreferrer"
                 variant="primary"
               >
-                Entrar no grupo!
+                Preencher formulário.
               </Button>
             </Tab.Pane>
           </Tab.Content>

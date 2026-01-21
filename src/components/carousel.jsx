@@ -7,38 +7,16 @@ function Carousel_Estudos() {
       <Carousel.Item>
         <img
           className="d-block w-100 imagem"
-          src="assets/encontros/teste1.jpeg"
-          alt="Primeiro slide"
+          src="assets/encontros/em_breve.png"
+          alt="Primeiro encontro"
         />
         <Carousel.Caption>
-          <h3>Título do primeiro slide</h3>
-          <p>Descrição ou texto explicativo do primeiro slide.</p>
+          <h3></h3>
+          <p></p>
         </Carousel.Caption>
+
       </Carousel.Item>
 
-      <Carousel.Item>
-        <img
-          className="d-block w-100 imagem"
-          src="assets/encontros/teste2.jpeg"
-          alt="Segundo slide"
-        />
-        <Carousel.Caption>
-          <h3>Título do segundo slide</h3>
-          <p>Descrição ou texto explicativo do segundo slide.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-
-      <Carousel.Item>
-        <img
-          className="d-block w-100 imagem"
-          src="assets/encontros/teste3.jpeg"
-          alt="Terceiro slide"
-        />
-        <Carousel.Caption>
-          <h3>Título do terceiro slide</h3>
-          <p>Descrição ou texto explicativo do terceiro slide.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
     </Carousel>
   );
 }

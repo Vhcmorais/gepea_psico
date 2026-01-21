@@ -74,8 +74,8 @@ function App() {
         <div className='container_contato'>
           <h3><span>Quer fazer</span> parte?</h3>
           <p>
-            Entre em contato conosco através do instagram ou entre no nosso grupo no WhatsApp para ficar por dentro de todas as novidades.<br/>
-            Você também faz parte dessa construção coletiva.<br/>
+            Entre em contato conosco através do instagram ou demonstre seu interesse em participar preenchendo o formulário da aba "formulário".<br/>
+            Você faz parte dessa construção!
           </p>
           <Contato/>
         </div>

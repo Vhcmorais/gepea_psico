@@ -7,7 +7,7 @@ function Botao() {
       <Button 
       href='#sobre'
       className= "btn_principal">
-        Conheca o projeto!
+        Conheça o projeto!
       </Button>
     </>
   );
