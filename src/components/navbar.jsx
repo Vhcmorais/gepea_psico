@@ -30,18 +30,23 @@ function Topo() {
   }, []);
 
   return (
-    <Navbar className="navbar-topo" expand="lg" fixed="top">
-      <Container fluid className="navbar-container">
-        <Navbar.Brand href="#inicio" className="navbar-brand">
-          <img
-            src="assets/logo_gepea.png"
-            alt="logo"
-            className="navbar-image"
-          />
-          <h3>Grupo de Estudos de Psicologia Escolar e Arte - GEPEA</h3>
-        </Navbar.Brand>
+  <Navbar className="navbar-topo" expand="lg" fixed="top">
+    <Container fluid className="navbar-container">
+      <Navbar.Brand href="#inicio" className="navbar-brand">
+        <img
+          src="assets/logo_gepea.png"
+          alt="logo"
+          className="navbar-image"
+        />
+        <h3>Grupo de Estudos de Psicologia Escolar e Arte - GEPEA</h3>
+      </Navbar.Brand>
 
-        <Nav className="ms-auto gap-4 navbar-menu">
+      {/* BOTÃO HAMBÚRGUER */}
+      <Navbar.Toggle aria-controls="navbar-nav" />
+
+      {/* CONTEÚDO COLAPSÁVEL */}
+      <Navbar.Collapse id="navbar-nav">
+        <Nav className="ms-auto navbar-menu">
           <Nav.Link href="#inicio" className={activeSection === 'inicio' ? 'active' : ''}>
             Início
           </Nav.Link>
@@ -62,9 +67,11 @@ function Topo() {
             Contato
           </Nav.Link>
         </Nav>
-      </Container>
-    </Navbar>
-  );
+      </Navbar.Collapse>
+    </Container>
+  </Navbar>
+);
+
 }
 
 export default Topo;

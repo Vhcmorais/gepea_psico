@@ -1,44 +1,58 @@
-.navbar-topo
-{
-    position: fixed;
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    width: 100%;
-    padding-left: 0;
-    padding-right: 0;
-    border: 1px solid #DCC9A3;
-    justify-content: space-between;
-    z-index: 999;
+/* TRAVA GLOBAL CONTRA OVERFLOW */
+html, body {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
-.navbar-topo .navbar-container
-{
-    margin: 0 auto;
-    max-width: 1280px;
-    width: 100%;
-    padding: 0 1rem;
+/* NAVBAR BASE */
+.navbar-topo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  max-width: 100vw;
+  background-color: rgba(255, 254, 238, 0.95);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-bottom: 1px solid #DCC9A3;
+  z-index: 999;
 }
 
-.navbar-brand
-{
-    display: flex;
-    gap: 20px;
-    align-items: center;
-    justify-content: center;
+/* CONTAINER INTERNO */
+.navbar-topo .navbar-container {
+  margin: 0 auto;
+  max-width: 1280px;
+  width: 100%;
+  padding: 0 1rem;
 }
 
-.navbar-brand h3
-{
-    margin-top: 15px;
-    color: #2E2E2E;
+/* BRAND */
+.navbar-brand {
+  display: flex;
+  gap: 20px;
+  align-items: center;
 }
 
-.navbar-image
-{
-    height: 80px;
-    width: 80px;
-    margin-left: 10px;
-    border-radius: 10px;
+.navbar-brand h3 {
+  margin-top: 15px;
+  color: #2E2E2E;
+}
+
+.navbar-image {
+  height: 80px;
+  width: 80px;
+  margin-left: 10px;
+  border-radius: 10px;
+  flex-shrink: 0;
+}
+
+/* MENU (DESKTOP) */
+.navbar-menu {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
 }
 
 .navbar-menu .nav-link {
@@ -46,6 +60,7 @@
   color: #2E2E2E;
   font-weight: 500;
   transition: color 0.3s ease;
+  white-space: nowrap;
 }
 
 .navbar-menu .nav-link::after {
@@ -59,7 +74,6 @@
   transition: width 0.5s ease;
 }
 
-/* hover */
 .navbar-menu .nav-link:hover,
 .navbar-menu .nav-link.active {
   color: #8B6F47;
@@ -70,6 +84,7 @@
   width: 100%;
 }
 
+/* TABLET E MOBILE */
 @media (max-width: 768px) {
   .navbar-brand h3 {
     display: none;
@@ -79,52 +94,42 @@
     height: 60px;
     width: 60px;
     margin-left: 5px;
-    flex-shrink: 0;
+  }
+
+  /* MENU COLAPSADO */
+  .navbar-collapse {
+    background-color: rgba(255, 254, 238, 0.97);
+    backdrop-filter: blur(10px);
+    padding: 1rem;
+    border-radius: 0 0 1rem 1rem;
   }
 
   .navbar-menu {
-    gap: 1rem !important;
-    flex-wrap: nowrap;
-    max-width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    width: 100%;
   }
 
   .navbar-menu .nav-link {
-    font-size: 0.9rem;
-    padding: 0.5rem 0.5rem !important;
-    white-space: nowrap;
+    font-size: 1rem;
+    padding: 0.5rem 0;
   }
 }
 
+/* CELULAR */
 @media (max-width: 480px) {
-  .navbar-brand h3 {
-    display: none;
-  }
-
   .navbar-image {
     height: 50px;
     width: 50px;
     margin-left: 0;
-    flex-shrink: 0;
-  }
-
-  .navbar-topo {
-    width: 100%;
-    max-width: 100vw;
   }
 
   .navbar-topo .navbar-container {
     padding: 0 0.5rem;
   }
 
-  .navbar-menu {
-    gap: 0.3rem !important;
-    max-width: 100%;
-    overflow-x: hidden;
-  }
-
   .navbar-menu .nav-link {
-    font-size: 0.7rem;
-    padding: 0.3rem 0.3rem !important;
-    white-space: nowrap;
+    font-size: 0.95rem;
   }
 }
