@@ -102,8 +102,16 @@ html, body, #root {
   }
 
   .content h3 { font-size: 1.6rem; }
-  .content h2 { font-size: 0.95rem; }
-  .content p  { font-size: 0.85rem; }
+  .content h2 { 
+    font-size: 0.95rem; 
+    padding: 1.2rem 0 0.8rem 0;
+    margin: 0.5rem 0;
+  }
+  .content p  { 
+    font-size: 0.85rem; 
+    margin: 1.5rem 0 2rem 0;
+    padding: 1rem 0;
+  }
 
   .imagem_hero {
     width: 160px;
