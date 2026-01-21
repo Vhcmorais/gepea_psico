@@ -132,7 +132,8 @@ html, body {
 
   .content p {
     font-size: 1rem;
-    padding: 0.5rem 0;
+    line-height: 1.6;
+    margin: 1.5rem 0;
   }
 
   .imagem_hero {
@@ -176,7 +177,7 @@ html, body {
   .content p {
     font-size: 0.85rem;
     line-height: 1.4;
-    padding: 0.3rem 0;
+    margin: 1rem 0;
   }
 }
 
