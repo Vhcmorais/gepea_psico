@@ -1,4 +1,4 @@
-import './App_new.css'
+import './App.css'
 import './components/css_sections/apresentacao.css'
 import './components/css_sections/estudos.css'
 import './components/css_sections/contato.css'

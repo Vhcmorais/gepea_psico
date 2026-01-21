@@ -171,13 +171,15 @@ html, body {
 
   .content h2 {
     font-size: 0.95rem;
-    padding: 0.3rem 0;
+    padding: 1.2rem 0 0.8rem 0;
+    margin: 0.5rem 0;
   }
 
   .content p {
     font-size: 0.85rem;
     line-height: 1.4;
-    margin: 1rem 0;
+    margin: 1.5rem 0 2rem 0;
+    padding: 1rem 0;
   }
 }
 
